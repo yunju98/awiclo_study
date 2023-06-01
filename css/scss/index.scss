@@ -44,3 +44,88 @@ header{
         }
     }
 }
+.top_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 35px;
+    height: 350px;
+    background: url(../../img/회의사진.jpeg) no-repeat top center/ 1024px 400px;
+    border-radius: 20px;
+
+    .left_box{
+        width: 550px;
+        h2{
+            font-size:3rem;
+            color:#ffffff;
+        }
+        p{
+            font-size: 1.2rem;
+            color:#fff;
+            margin: 20px 0;
+        }
+        button{
+            border: none;
+            border-radius: 20px;
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            background-color: #fff;
+        }
+    }
+    .right_box{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        .review_box{
+            position: relative;
+            width:250px;
+            height: 140px;
+            padding: 20px;
+            background-color: rgb(229, 229, 229);
+            border-radius: 20px;
+            h3{
+                font-size: 2rem;
+                font-weight: 500;
+            }
+            p{
+                margin: 10px 0;
+                font-size: 1.2rem;
+                color:rgb(136, 136, 136);
+
+            }
+            ul{
+                display: flex;
+                li{margin-right: -4px;
+                    img{
+                        border: 1px solid #fff;
+                        border-radius: 100%;
+                        width:20px;
+                    }
+                }
+            }
+            a{
+                display: block;
+                position:absolute;
+                top:20px;
+                right:20px;
+                width: 30px;
+                height: 30px;
+                background: url(../../img/arrow.png) no-repeat top right/30px;
+            }
+        }
+        .tag{
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            width: 280px;
+            margin-top: 10px;
+            li{
+                margin: 10px 0 0 10px;
+                padding: 3px 10px;
+                font-size: 1.2rem;
+                color:#fff;
+                border: 1px solid #fff;
+                border-radius: 20px;
+            }
+        }
+    }
+}

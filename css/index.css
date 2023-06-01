@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -42,4 +43,89 @@ header .inner div button {
   border: none;
   border-radius: 20px;
   padding: 10px;
+}
+
+.top_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 35px;
+  height: 350px;
+  background: url(../../img/회의사진.jpeg) no-repeat top center/1024px 400px;
+  border-radius: 20px;
+}
+.top_box .left_box {
+  width: 550px;
+}
+.top_box .left_box h2 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+.top_box .left_box p {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 20px 0;
+}
+.top_box .left_box button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+.top_box .right_box {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.top_box .right_box .review_box {
+  position: relative;
+  width: 250px;
+  height: 140px;
+  padding: 20px;
+  background-color: rgb(229, 229, 229);
+  border-radius: 20px;
+}
+.top_box .right_box .review_box h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.top_box .right_box .review_box p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: rgb(136, 136, 136);
+}
+.top_box .right_box .review_box ul {
+  display: flex;
+}
+.top_box .right_box .review_box ul li {
+  margin-right: -4px;
+}
+.top_box .right_box .review_box ul li img {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 20px;
+}
+.top_box .right_box .review_box a {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: url(../../img/arrow.png) no-repeat top right/30px;
+}
+.top_box .right_box .tag {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 280px;
+  margin-top: 10px;
+}
+.top_box .right_box .tag li {
+  margin: 10px 0 0 10px;
+  padding: 3px 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
