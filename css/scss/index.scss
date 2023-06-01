@@ -1,1 +1,46 @@
 @import "common";
+
+/*inner s*/
+.inner{
+    margin: auto;
+    width: 1024px;
+}
+
+/* header S */
+header{
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        h1{
+            a{
+                img{
+                    height: 50px;
+                }
+            }
+        }
+        nav{
+            ul{
+                display: flex;
+                li{
+                    a{
+                        display: flex;
+                        align-items: center;
+                        margin:0 20px;
+                        font-size: 1.4rem;
+                        height: 70px;
+                    }
+                }
+            }
+        }
+        div{
+            button{
+                background-color: #eff1f1;
+                border: none;
+                border-radius: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
