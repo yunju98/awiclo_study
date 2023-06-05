@@ -35,7 +35,7 @@ header{
             }
         }
         div{
-            button{
+            a{
                 background-color: #eff1f1;
                 border: none;
                 border-radius: 20px;
@@ -64,7 +64,7 @@ header{
             color:#fff;
             margin: 20px 0;
         }
-        button{
+        a{
             border: none;
             border-radius: 20px;
             padding: 10px 30px;
@@ -111,6 +111,7 @@ header{
                 width: 30px;
                 height: 30px;
                 background: url(../../img/arrow.png) no-repeat top right/30px;
+                text-indent: -9999%;
             }
         }
         .tag{
@@ -231,6 +232,7 @@ header{
             height: 30px;
             background: rgb(229, 229, 229) url(../../img/arrow.png) no-repeat center center/15px;
             border-radius: 100%;
+            text-indent: -9999px;
         }
     }
 }
